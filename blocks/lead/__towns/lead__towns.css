@@ -1,0 +1,24 @@
+.lead__towns {
+  padding: 90.21px 23.64px 261.8px 23.27px;
+}
+
+@media (max-width: 1024px) {
+  .lead__towns {
+    width: 883.76px;
+    height: 248.02px;
+  }
+}
+
+@media (max-width: 768px) {
+  .lead__towns {
+    width: 731.38px;
+    height: 205.26px;
+  }
+}
+
+@media (max-width: 320px) {
+  .lead__towns {
+    width: 304.74px;
+    height: 85.53px;
+  }
+}

@@ -1,0 +1,23 @@
+.place__link {
+  grid-area: link;
+  align-self: start;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height, or 122% */
+  text-decoration-line: underline;
+  color: #fff;
+}
+
+.place__link:hover {
+  opacity: 80%;
+}
+
+@media (max-width: 320px) {
+  .place__link {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}

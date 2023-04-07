@@ -1,0 +1,26 @@
+.intro {
+  padding: 0 0 92px 148px;
+  color: #fff;
+  border: #fff 2px solid;
+  align-self: flex-start;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+@media (max-width: 1024px) {
+  .intro {
+    padding: 0 0 92px 48px;
+  }
+}
+
+@media (max-width: 768px) {
+  .intro {
+    padding: 0 0 88px 24px;
+  }
+}
+
+@media (max-width: 320px) {
+  .intro {
+    padding: 0 16px 64px;
+  }
+}

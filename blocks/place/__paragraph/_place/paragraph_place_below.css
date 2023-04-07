@@ -1,0 +1,11 @@
+.paragraph_place_below {
+  grid-area: paragraph_place_below;
+  align-self: start;
+}
+
+@media (max-width: 320px) {
+  .paragraph_place_below {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
