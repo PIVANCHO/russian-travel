@@ -8,7 +8,6 @@
   color: #fff;
   box-sizing: border-box;
   width: 100%;
-  border: #fff 2px solid;
 }
 
 @media (max-width: 1024px) {

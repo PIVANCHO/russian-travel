@@ -1,17 +1,10 @@
 .place {
-  display: grid;
+  display: flex;
+  flex-direction: row;
   padding: 0 148px 80px;
-  grid-template-columns: repeat(2, 1fr);
-  column-gap: 40px;
-  grid-template-areas:
-    "title url"
-    "title link"
-    "image paragraph_place_above"
-    "image paragraph_place_below";
   color: #fff;
   width: 100%;
   box-sizing: border-box;
-  border: #fff 2px solid;
 }
 
 .place:last-of-type {

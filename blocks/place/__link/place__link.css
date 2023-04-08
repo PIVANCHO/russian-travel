@@ -1,6 +1,5 @@
 .place__link {
-  grid-area: link;
-  align-self: start;
+  padding-bottom: 48px;
   font-family: 'Inter';
   font-style: normal;
   font-weight: 400;

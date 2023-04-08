@@ -1,4 +1,6 @@
 .place__title {
+  width: 460px;
+  padding-right: 40px;
   grid-area: title;
   margin: 0;
   font-family: 'Inter';
