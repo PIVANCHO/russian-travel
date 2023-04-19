@@ -1,8 +1,8 @@
 .place__url-heading {
-  width: 100%;
+  /* width: 100%; */
   text-align: left;
   margin: 0;
-  align-self: end;
+  align-self: start;
   padding-top: 30px;
   padding-bottom: 12px;
   font-family: 'Inter';
@@ -12,10 +12,6 @@
   line-height: 170%;
   letter-spacing: 2px;
   color: #AAAAAA;
-}
-
-.place__url-heading:nth-child(0) {
-  padding-top: 106px;
 }
 
 @media (max-width: 320px) {

@@ -1,7 +1,8 @@
 .cover {
-  background-image: url(/images/__background.jpg);
+  background-image: url(./__background.jpg);
+  background-color: #2A2C2F;
   background-position: center;
-  object-fit: cover;
+  object-fit: contain;
   background-repeat: no-repeat;
   padding: 0 48px;
   height: 740px;

@@ -1,5 +1,5 @@
 .lead__image {
-  background-image: url(/images/lead__image.png);
+  background-image: url(./lead__image.png);
   max-width: 984px;
   height: 615px;
   object-fit: cover;
@@ -7,7 +7,6 @@
 
 @media (max-width: 1024px) {
   .lead__image {
-    background-image: url(/images/lead__image.png);
     object-fit: cover;
     max-width: 928px;
     height: 580px;

@@ -1,7 +1,4 @@
 .place__title {
-  width: 460px;
-  padding-right: 40px;
-  grid-area: title;
   margin: 0;
   font-family: 'Inter';
   font-style: normal;
@@ -9,12 +6,20 @@
   font-size: 72px;
   line-height: 76px;
   padding-bottom: 48px;
+  width: 460px;
+}
+
+@media (max-width: 1024px) {
+  .place__title {
+    width: 440px;
+  }
 }
 
 @media (max-width: 768px) {
   .place__title {
     font-size: 42px;
     line-height: 0.905;
+    width: 340px;
   }
 }
 

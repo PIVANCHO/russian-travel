@@ -35,3 +35,7 @@
 @import url(../blocks/footer/__link/footer__link.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
 @import url(../blocks/photo-grid/__item/photo-grid__item.css);
+
+.page {
+  width: 100%;
+}
