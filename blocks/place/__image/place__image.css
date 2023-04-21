@@ -1,18 +1,22 @@
 .place__image {
-  width: 460px;
+  grid-area: image;
+  object-fit: contain;
+  max-width: 460px;
   height: 460px;
+  display: inline-block;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 900px) {
   .place__image {
-    width: 340px;
+    /* width: 340px; */
     height: 340px;
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 650px) {
   .place__image {
-    width: 320px;
-    height: 320px;
+    width: 100%;
+    justify-self: start;
+    padding-bottom: 32px;
   }
 }

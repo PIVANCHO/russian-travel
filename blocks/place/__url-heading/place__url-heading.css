@@ -1,11 +1,11 @@
 .place__url-heading {
+  grid-area: url-and-link;
   /* width: 100%; */
   text-align: left;
   margin: 0;
   align-self: start;
-  padding-top: 30px;
-  padding-bottom: 12px;
-  font-family: 'Inter';
+  padding-bottom: 82px;
+  font-family: 'Inter', Arial, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
@@ -14,8 +14,10 @@
   color: #AAAAAA;
 }
 
-@media (max-width: 320px) {
+@media (max-width: 650px) {
   .place__url-heading {
+    grid-area: url;
+    padding-bottom: 12px;
     padding-left: 16px;
     padding-right: 16px;
   }

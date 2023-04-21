@@ -1,30 +1,24 @@
 .lead__image {
-  background-image: url(./lead__image.png);
-  max-width: 984px;
-  height: 615px;
-  object-fit: cover;
+  box-sizing: border-box;
+  width: 100%;
+  /* height: 615px; */
+  object-fit: contain;
 }
 
-@media (max-width: 1024px) {
+/* @media (max-width: 1024px) {
   .lead__image {
-    object-fit: cover;
-    max-width: 928px;
     height: 580px;
   }
 }
 
 @media (max-width: 768px) {
   .lead__image {
-    object-fit: cover;
-    max-width: 768px;
     height: 480px;
   }
 }
 
 @media (max-width: 320px) {
   .lead__image {
-    max-width: 320px;
     height: 200px;
-    object-fit: cover;
   }
-}
+} */
