@@ -16,7 +16,7 @@
 @media (max-width: 650px) {
   .place__link {
     grid-area: link;
-    padding-left: 24px;
+    padding-left: 16px;
     padding-right: 16px;
   }
 }
