@@ -1,15 +1,15 @@
 .place {
   display: grid;
   grid-template-areas:
-  "title ."
-  "title url-and-link" 
+  "title website" 
   "image par"
-  "image par2";
+  "image par";
   column-gap: 40px;
   padding: 0 148px 80px;
   color: #fff;
   width: 100%;
   box-sizing: border-box;
+  align-content: start;
 }
 
 .place:last-of-type {
@@ -34,11 +34,9 @@
   .place {
     grid-template-areas: 
     "title"
-    "url"
-    "link"
+    "website"
     "image"
-    "par"
-    "par2";
+    "par";
     padding: 0 0 50px;
   }
 }

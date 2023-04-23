@@ -1,5 +1,4 @@
 .place__paragraph {
-  grid-area: par;
   font-family: 'Inter', Arial, sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -7,12 +6,7 @@
   line-height: 163%;
   margin: 0;
   max-width: 484px;
-  padding-bottom: 26px;
   box-sizing: border-box;
-}
-
-.place__paragraph:nth-of-type(3) {
-  grid-area: par2;
 }
 
 @media (max-width: 1024px) {

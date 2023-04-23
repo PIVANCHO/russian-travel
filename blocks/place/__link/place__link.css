@@ -1,7 +1,4 @@
 .place__link {
-  grid-area: url-and-link;
-  align-self: end;
-  padding-bottom: 48px;
   font-family: 'Inter', Arial, sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -19,8 +16,7 @@
 @media (max-width: 650px) {
   .place__link {
     grid-area: link;
-    padding-left: 16px;
+    padding-left: 24px;
     padding-right: 16px;
-    padding-bottom: 32px;
   }
 }

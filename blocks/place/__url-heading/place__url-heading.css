@@ -1,10 +1,8 @@
 .place__url-heading {
-  grid-area: url-and-link;
   /* width: 100%; */
   text-align: left;
   margin: 0;
-  align-self: start;
-  padding-bottom: 82px;
+  /* padding-bottom: 82px; */
   font-family: 'Inter', Arial, sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -18,7 +16,7 @@
   .place__url-heading {
     grid-area: url;
     padding-bottom: 12px;
-    padding-left: 16px;
+    padding-left: 24px;
     padding-right: 16px;
   }
 }

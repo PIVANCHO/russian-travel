@@ -9,7 +9,7 @@
 
 @media (max-width: 650px) {
   .footer__list {
-    display: flex;
     flex-direction: column;
+    gap: 32px;
   }
 }

@@ -3,6 +3,7 @@
   color: #fff;
   align-self: flex-start;
   width: 100%;
+  max-width: 1280px;
   box-sizing: border-box;
 }
 
