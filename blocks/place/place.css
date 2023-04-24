@@ -37,6 +37,12 @@
     "website"
     "image"
     "par";
+    padding: 0 50px 50px;
+  }
+}
+
+@media (max-width: 480px) {
+  .place {
     padding: 0 0 50px;
   }
 }
